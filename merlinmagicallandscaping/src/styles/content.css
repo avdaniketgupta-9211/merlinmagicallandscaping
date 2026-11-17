@@ -1,0 +1,10 @@
+.content-page { min-height: 60vh; padding-block: calc(var(--header-height) + clamp(38px, 6vw, 90px)) clamp(65px, 8vw, 125px); }
+.content-page .display-title { text-wrap: pretty; }
+.content-body { width: min(100%, 740px); padding-top: 25px; color: var(--muted-ink); }
+.content-body p { margin: 0 0 16px; }
+.content-body h2 { margin: 27px 0 10px; color: var(--navy); font: 400 clamp(24px, 3vw, 36px)/1.15 var(--display-font); letter-spacing: -.025em; }
+.content-body a:not(.text-link) { color: var(--navy); font-weight: 650; text-decoration: underline; text-underline-offset: 3px; }
+.content-body li + li { margin-top: 8px; }
+.content-body ul { padding-left: 19px; list-style: disc; }
+.content-page .content-back { margin-top: 20px; }
+.service-detail-photo .photo { margin-top: 28px; aspect-ratio: 1.75; }

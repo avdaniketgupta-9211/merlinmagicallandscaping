@@ -1,0 +1,10 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "netlify": {
+      "type": "remote",
+      "url": "https://mcp.netlify.com/mcp",
+      "enabled": true
+    }
+  }
+}
